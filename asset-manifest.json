@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/jin-portfolio/static/css/main.e7469c6b.css",
+    "main.js": "/jin-portfolio/static/js/main.9489b020.js",
+    "static/js/787.a55e05f5.chunk.js": "/jin-portfolio/static/js/787.a55e05f5.chunk.js",
+    "index.html": "/jin-portfolio/index.html",
+    "main.e7469c6b.css.map": "/jin-portfolio/static/css/main.e7469c6b.css.map",
+    "main.9489b020.js.map": "/jin-portfolio/static/js/main.9489b020.js.map",
+    "787.a55e05f5.chunk.js.map": "/jin-portfolio/static/js/787.a55e05f5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e7469c6b.css",
+    "static/js/main.9489b020.js"
+  ]
+}
