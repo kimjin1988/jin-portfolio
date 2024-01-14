@@ -39,6 +39,7 @@
 export default function Project({ scroll }) {
     return (
         <>
+{/* project 1 */}
             <div className="relative flex flex-wrap h-[951px] bg-[#fcebd8] overflow-hidden">
                 <div className={`z-20 absolute mt-40 right-[6vw] md:right-28 xl:right-60 duration-500 overflow-hidden ${scroll >= 1250 && scroll < 2600 ? 'translate-x-0' : 'translate-x-[100vw] overflow-hidden'}`}>
                     <p className="text-stone-500 text-4xl md:text-5xl font-semibold my-4">Project 1.</p>
@@ -53,9 +54,28 @@ export default function Project({ scroll }) {
                         </div>
                     </div>
                     {/* img MO */}
-                    <div className="md:hidden flex items-center mx-5">
-                        <div className="flex mt-5 h-[40vw] w-full mx-[5vw] rounded-xl">
-                            <img className="rounded-xl" src="./img/projectImg1.png"/>
+                    <div className="md:hidden flex flex-col items-center mx-5">
+                        {/* <div className="project_1 flex">
+                            <img id="main" className="mt-5 h-[40vw] w-full mx-[5vw] rounded-xl object-cover" src="https://kimjin1988.github.io/jin-portfolio/img/projectImg1.png"/>
+                            <button class="prev " onclick="move(-1)">&#10094;</button>
+                            <button class="next" onclick="move(1)">&#10095;</button> */}
+
+                            {/* <img className="mt-5 h-[40vw] w-full mx-[5vw] rounded-xl object-cover" src="https://kimjin1988.github.io/jin-portfolio/img/portfolio_aboutpage.png"/>
+                            <img className="mt-5 h-[40vw] w-full mx-[5vw] rounded-xl object-cover" src="https://kimjin1988.github.io/jin-portfolio/img/portfolio_project1page.png"/> */}
+                        {/* </div> */}
+                        <div className="relative flex">
+                            <img id="main" className="mt-5 h-[40vw] w-full mx-[5vw] rounded-xl object-cover" src="https://kimjin1988.github.io/jin-portfolio/img/projectImg1.png" alt="project1_Main"/>
+                            <button className="prev absolute left-0 h-full text-[25px] text-stone-500" onclick="move(-1)">&#10094;</button>
+                            <button className="next absolute right-0 h-full text-[25px] text-stone-500" onclick="move(1)">&#10095;</button>
+
+                            <div className="thumbnail-container flex absolute bottom-0 w-full justify-center">
+                                <img className="thumbnail active w-[40px] h-[40px] p-1 cursor-pointer" onclick="jumpTo(0)" src="https://kimjin1988.github.io/jin-portfolio/img/projectImg1.png" alt=""/>
+                                <img className="thumbnail w-[40px] h-[40px] p-1 cursor-pointer" onclick="jumpTo(1)" src="https://search.pstatic.net/sunny/?src=https%3A%2F%2Fcdn.crowdpic.net%2Fdetail-thumb%2Fthumb_d_359693F12614C049B96B8386F05FD412.jpg&type=a340" alt=""/>
+                                <img className="thumbnail w-[40px] h-[40px] p-1 cursor-pointer" onclick="jumpTo(2)" src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAxOTAxMTJfMjgz%2FMDAxNTQ3Mjc3Mzk3NjU2.nLq9-Qh6VApkPNpHta-cijv5aMnDklyzm2wdARmDcOcg.hhnrpu0V0o-7Yhj-HogUrp00162pqVvr5iDcCilIFCUg.GIF.banyapeach%2F%25BF%25C0%25B6%25C7%25C4%25C9.gif&type=a340" alt=""/>
+                            </div>
+                        </div>
+                        <div>
+
                         </div>
                         {/* slide page 제작 구상중 */}
                     </div>
@@ -79,19 +99,19 @@ export default function Project({ scroll }) {
                             <p className="text-[#6d6d6d] w-[80px] font-semibold text-[20px] md:py-3 py-1">
                                 <span className="text-[3vw] w-[80px]">GitHub</span>
                             </p>
-                            <a className="border-b text-[2.3vw] border-blue-300 text-blue-300" href="">https://kimjin1988.github.io/jin-portfolio/</a>
+                            <a className="border-b text-[2.5vw] border-blue-300 text-blue-300" href="">https://kimjin1988.github.io/jin-portfolio/</a>
                         </div>
                         <div className="flex">
                             <p className="text-[#6d6d6d] flex font-semibold text-[20px] py-1">
                                 <span className="text-[3vw] w-[80px]">설명</span>
                             </p>
-                            <span className="text-[2.3vw] text-[#6d6d6d]">간단한 자기소개, 인적 사항, 기술 스택, GitHub 링크, 프로젝트 경험, 업무 경력</span>
+                            <span className="text-[2.5vw] text-[#6d6d6d]">간단한 자기소개, 인적 사항, 기술 스택, GitHub 링크, 프로젝트 경험, 업무 경력</span>
                         </div>
                         <div className="flex items-center">
                             <p className="text-[#6d6d6d] flex font-semibold text-[20px] py-1">
                                 <span className="text-[3vw] w-[80px]">SKILL</span>
                             </p>
-                            <span className="text-[2.3vw] text-[#6d6d6d]">
+                            <span className="text-[2.5vw] text-[#6d6d6d]">
                                 React, HTML, CSS, Tailwindcss, GitHub
                             </span>
                         </div>
@@ -126,11 +146,13 @@ export default function Project({ scroll }) {
                                 React, HTML, CSS, Tailwindcss, GitHub
                             </span>
                         </div>
+                        <hr className="border-stone-500 my-2"/>
                         {/* <p className="text-[#6d6d6d] w-[80px] font-semibold text-[20px] md:py-3 py-1"></p> */}
                     </div>
                 </div>
             </div>
 
+{/* project 2 */}
             <div className="relative flex flex-wrap h-[951px] bg-[#eef5ec] overflow-hidden">
                 <div className={`z-20 absolute mt-40 left-[4vw] md:left-20 xl:left-52 duration-500 overflow-hidden ${scroll >= 2250 && scroll < 3650 ? 'translate-x-0' : 'translate-x-[-100vw] overflow-hidden'}`}>
                     <p className="text-stone-500 text-4xl md:text-5xl font-semibold my-4">Project 2.</p>
@@ -142,7 +164,7 @@ export default function Project({ scroll }) {
                 <div className={`z-10 absolute translate-x-0 right-[4vw] md:right-20 lg:right-28 mt-48 h-[650px] w-[50vw] md:w-[44vw] bg-white transition-all duration-1000 overflow-hidden ${scroll >= 2300 && scroll < 3650 ? 'opacity-100 translate-x-0' : 'opacity-0 translate-x-[100vw]'}`}>
                 </div>
             </div>
-
+{/* project 3 */}
             <div className="relative flex flex-wrap h-[951px] bg-[#d8e8fc] overflow-hidden">
                 <div className={`z-20 absolute mt-40 right-[6vw] md:right-28 xl:right-60 duration-500 overflow-hidden ${scroll >= 3200 && scroll < 4700 ? 'translate-x-0' : 'translate-x-[100vw] overflow-hidden'}`}>
                     <p className="text-stone-500 text-4xl md:text-5xl font-semibold my-4">Project 3.</p>
