@@ -71,7 +71,7 @@ export default function App() {
       <main className="h-screen">
         <section id="home">
           <div className="relative z-[-10] w-full h-screen bg-no-repeat bg-cover bg-center">
-            <img className="w-full fixed h-full object-cover" src='./img/노트북.jpg' />
+            <img className="w-full fixed h-full object-cover" src='https://kimjin1988.github.io/jin-portfolio/img/노트북.jpg' />
           </div>
           <div className="absolute flex top-0 bg-[#646c77]/30 w-full h-screen z-0 justify-center items-center text-center text-white">
             <div className="bg-gray-500/10 w-[60vw] h-[60vw] md:w-[400px] md:h-[400px] rotate-45 p-[3vw] md:p-5">

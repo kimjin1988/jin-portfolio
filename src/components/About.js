@@ -12,7 +12,7 @@ export default function About({ scroll }) {
                     <div className="w-full h-full p-5 pt-14">
                         <div className="flex flex-col">
                             <div className="flex justify-between items-center">
-                                <img className="flex w-1/2 p-5 mt-6 z-30 rounded-[30px] duration-300" alt="ABOUTimg" src="https://kimjin1988.github.io/Portfolio/img/aboutimg.jpg"/>
+                                <img className="flex w-1/2 p-5 mt-6 z-30 rounded-[30px] duration-300" alt="ABOUTimg" src="https://kimjin1988.github.io/jin-portfolio/img/aboutimg.jpg"/>
                                 <div className="w-1/2 p-5 mt-6">
                                     <p className="">
                                         <span className=""><span className="text-[#85b9fd] font-semibold text-[20px] md:py-3 lg:py-1 w-[80px]">NAME</span><dd className="text-[14px] md:text-[16px] md:leading-[54px] lg:leading-[38px] text-stone-500">김 진</dd></span>
@@ -35,25 +35,25 @@ export default function About({ scroll }) {
                                     <li className="">
                                         <p className="flex">
                                             <span className="flex w-[60px] m-1">
-                                                <img className="h-[50px] w-[50px]" src="https://kimjin1988.github.io/Portfolio/img/icon_html.png"/>
+                                                <img className="h-[50px] w-[50px]" src="https://kimjin1988.github.io/jin-portfolio/img/icon_html.png"/>
                                             </span>
                                             <span className="flex w-[65px] m-1">
-                                                <img className="h-[50px] w-[50px]" src="https://kimjin1988.github.io/Portfolio/img/icon_css3.png"/>
+                                                <img className="h-[50px] w-[50px]" src="https://kimjin1988.github.io/jin-portfolio/img/icon_css3.png"/>
                                             </span>
                                             <span className="flex w-[65px] m-1">
-                                                <img className="h-[50px] w-[50px]" src="https://kimjin1988.github.io/Portfolio/img/icon_js.png"/>
+                                                <img className="h-[50px] w-[50px]" src="https://kimjin1988.github.io/jin-portfolio/img/icon_js.png"/>
                                             </span>
                                             <span className="flex w-[65px] m-1">
-                                                <img className="h-[50px] w-[50px]" src="https://kimjin1988.github.io/Portfolio/img/icon_figma.png"/>
+                                                <img className="h-[50px] w-[50px]" src="https://kimjin1988.github.io/jin-portfolio/img/icon_figma.png"/>
                                             </span>
                                             <span className="flex w-[65px] m-1">
-                                                <img className="h-[50px] w-[50px]" src="https://kimjin1988.github.io/Portfolio/img/icon_git.png"/>
+                                                <img className="h-[50px] w-[50px]" src="https://kimjin1988.github.io/jin-portfolio/img/icon_git.png"/>
                                             </span>
                                             <span className="flex w-[65px] m-1">
-                                                <img className="h-[50px] w-[50px]" src="https://kimjin1988.github.io/Portfolio/img/icon_photoshop.png"/>
+                                                <img className="h-[50px] w-[50px]" src="https://kimjin1988.github.io/jin-portfolio/img/icon_photoshop.png"/>
                                             </span>
                                             <span className="flex w-[65px] m-1">
-                                                <img className="h-[50px] w-[50px]" src="https://kimjin1988.github.io/Portfolio/img/logo192.png"/>
+                                                <img className="h-[50px] w-[50px]" src="https://kimjin1988.github.io/jin-portfolio/img/logo192.png"/>
                                             </span>
                                             {/* <span className="">
                                                 <img src=""/>
@@ -69,7 +69,7 @@ export default function About({ scroll }) {
                 {/* web버전 */}
                 <div className={`relative hidden md:block items-center mt-48 h-[650px] w-full bg-[#FFE9C8]/90 duration-500 ${scroll >= 500 && scroll < 1650 ? 'opacity-100' : 'opacity-0'}`}>
                     <div className="flex flex-col ml-[5vw] pr-[12vw] lg:pt-24 md:pt-36 w-1/2 items-center">
-                        <img className="flex mt-6 z-30 h-[30vw] xl:h-[400px] w-[23vw] xl:w-[300px] rounded-[30px] duration-300" alt="ABOUTimg" src="https://kimjin1988.github.io/Portfolio/img/aboutimg.jpg"/>
+                        <img className="flex mt-6 z-30 h-[30vw] xl:h-[400px] w-[23vw] xl:w-[300px] rounded-[30px] duration-300" alt="ABOUTimg" src="https://kimjin1988.github.io/jin-portfolio/img/aboutimg.jpg"/>
                         <div className="flex-wrap mt-8 text-stone-500">
                             <p>안녕하세요.<br/>트렌드에 뒤쳐지지 않는 프론트엔드 개발자가 되고싶은 김진입니다.</p>
                         </div>
@@ -119,25 +119,25 @@ export default function About({ scroll }) {
                             <li className="">
                                 <p className="flex flex-wrap gap-1">
                                     <span className="flex w-[65px] m-1">
-                                        <img className="h-[50px] w-[50px] md:h-[55px] md:w-[55px]" src="https://kimjin1988.github.io/Portfolio/img/icon_html.png"/>
+                                        <img className="h-[50px] w-[50px] md:h-[55px] md:w-[55px]" src="https://kimjin1988.github.io/jin-portfolio/img/icon_html.png"/>
                                     </span>
                                     <span className="flex w-[65px] m-1">
-                                        <img className="h-[50px] w-[50px] md:h-[55px] md:w-[55px]" src="https://kimjin1988.github.io/Portfolio/img/icon_css3.png"/>
+                                        <img className="h-[50px] w-[50px] md:h-[55px] md:w-[55px]" src="https://kimjin1988.github.io/jin-portfolio/img/icon_css3.png"/>
                                     </span>
                                     <span className="flex w-[65px] m-1">
-                                        <img className="h-[50px] w-[50px] md:h-[55px] md:w-[55px]" src="https://kimjin1988.github.io/Portfolio/img/icon_js.png"/>
+                                        <img className="h-[50px] w-[50px] md:h-[55px] md:w-[55px]" src="https://kimjin1988.github.io/jin-portfolio/img/icon_js.png"/>
                                     </span>
                                     <span className="flex w-[65px] m-1">
-                                        <img className="h-[50px] w-[50px] md:h-[55px] md:w-[55px]" src="https://kimjin1988.github.io/Portfolio/img/icon_figma.png"/>
+                                        <img className="h-[50px] w-[50px] md:h-[55px] md:w-[55px]" src="https://kimjin1988.github.io/jin-portfolio/img/icon_figma.png"/>
                                     </span>
                                     <span className="flex w-[65px] m-1">
-                                        <img className="h-[50px] w-[50px] md:h-[55px] md:w-[55px]" src="https://kimjin1988.github.io/Portfolio/img/icon_git.png"/>
+                                        <img className="h-[50px] w-[50px] md:h-[55px] md:w-[55px]" src="https://kimjin1988.github.io/jin-portfolio/img/icon_git.png"/>
                                     </span>
                                     <span className="flex w-[65px] m-1">
-                                        <img className="h-[50px] w-[50px] md:h-[55px] md:w-[55px]" src="https://kimjin1988.github.io/Portfolio/img/icon_photoshop.png"/>
+                                        <img className="h-[50px] w-[50px] md:h-[55px] md:w-[55px]" src="https://kimjin1988.github.io/jin-portfolio/img/icon_photoshop.png"/>
                                     </span>
                                     <span className="flex w-[65px] m-1">
-                                        <img className="h-[50px] w-[50px] md:h-[55px] md:w-[55px]" src="https://kimjin1988.github.io/Portfolio/img/logo192.png"/>
+                                        <img className="h-[50px] w-[50px] md:h-[55px] md:w-[55px]" src="https://kimjin1988.github.io/jin-portfolio/img/logo192.png"/>
                                     </span>
                                     {/* <span className="">
                                         <img src=""/>

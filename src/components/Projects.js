@@ -62,7 +62,7 @@ export default function Project({ scroll }) {
                     {/* img WEB */}
                     <div className="hidden md:block flex-col pl-[57vw] items-center pr-[3vw]">
                         <div className="flex justify-center">
-                            <img className="flex mt-0 p-5 z-30 h-[250px] xl:h-[300px] rounded-[30px] duration-300 object-cover justify-center" alt="project1Img" src="https://kimjin1988.github.io/Portfolio/img/projectImg1.png"/>
+                            <img className="flex mt-0 p-5 z-30 h-[250px] xl:h-[300px] rounded-[30px] duration-300 object-cover justify-center" alt="project1Img" src="https://kimjin1988.github.io/jin-portfolio/img/projectImg1.png"/>
                         </div>
                         <div className="flex-wrap mt-3 text-stone-500 font-bold">
                             <p className="text-[#6d6d6d] text-[16px] pt-1">
@@ -79,7 +79,7 @@ export default function Project({ scroll }) {
                             <p className="text-[#6d6d6d] w-[80px] font-semibold text-[20px] md:py-3 py-1">
                                 <span className="text-[3vw] w-[80px]">GitHub</span>
                             </p>
-                            <a className="border-b text-[2.3vw] border-blue-300 text-blue-300" href="">https://kimjin1988.github.io/react-github-portfolio/</a>
+                            <a className="border-b text-[2.3vw] border-blue-300 text-blue-300" href="">https://kimjin1988.github.io/jin-portfolio/</a>
                         </div>
                         <div className="flex">
                             <p className="text-[#6d6d6d] flex font-semibold text-[20px] py-1">
@@ -110,7 +110,7 @@ export default function Project({ scroll }) {
                             <p className="text-[#6d6d6d] w-[80px] font-semibold text-[20px] md:py-3 py-1">
                                 <span className="text-[20px] w-[80px]">GitHub</span>
                             </p>
-                            <a className="text-[16px] border-blue-300 text-blue-300 overflow-clip" href="">https://kimjin1988.github.io/react-git-portfolio/</a>
+                            <a className="text-[16px] border-blue-300 text-blue-300 overflow-clip" href="">https://kimjin1988.github.io/jin-portfolio/</a>
                         </div>
                         <div className="flex">
                             <p className="text-[#6d6d6d] flex font-semibold text-[20px] py-1">
