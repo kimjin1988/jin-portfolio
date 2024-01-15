@@ -166,7 +166,7 @@ export default function Project({ scroll }) {
                             <p className="text-[#6d6d6d] w-[80px] font-semibold text-[20px] md:py-3 py-1">
                                 <span className="text-[20px] w-[80px]">GitHub</span>
                             </p>
-                            <a className="text-[16px] border-blue-300 text-blue-300 overflow-clip" href="">https://kimjin1988.github.io/jin-portfolio/</a>
+                            <a className="text-[16px] border-blue-300 text-blue-300" href="">https://kimjin1988.github.io/jin-portfolio/</a>
                         </div>
                         <div className="flex">
                             <p className="text-[#6d6d6d] flex font-semibold text-[20px] py-1">
@@ -221,7 +221,7 @@ export default function Project({ scroll }) {
                             <a className="border-b text-[2.5vw] border-blue-300 text-blue-300" href="">https://baeminji95.github.io/PongDang/</a>
                         </div>
                         <div className="flex">
-                            <p className="text-[#6d6d6d] flex font-semibold text-[20px] py-1">
+                            <p className="text-[#6d6d6d] flex font-semibold text-[20px]">
                                 <span className="text-[3vw] w-[120px]">주요 기능</span>
                             </p>
                             <span className="text-[2.5vw] text-[#6d6d6d]">날씨 및 해변 정보, 지리적 정보와 지도 기능, 모바일 반응형 디자인</span>
@@ -250,25 +250,38 @@ export default function Project({ scroll }) {
                     </div>
                 </div>
                 <div className={`z-10 absolute hidden md:block translate-x-0 right-[4vw] md:right-20 lg:right-28 mt-48 h-[650px] w-[50vw] md:w-[44vw] bg-white transition-all duration-1000 overflow-hidden ${scroll >= 2300 && scroll < 3650 ? 'opacity-100 translate-x-0' : 'opacity-0 translate-x-[100vw]'}`}>
-                </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                
+                    <div className="mt-5 text-[#6d6d6d] text-center hidden md:block">
+                        <h1 className="text-[20px] font-semibold">Pong Dang</h1>
+                        <p className="pt-2 text-[14px] opacity-75">2人 팀 프로젝트</p>
+                    </div>
+                    
+                    <div className="mt-[3vw] w-full px-5">
+                        <div className="flex items-center">
+                            <p className="text-[#6d6d6d] w-[80px] font-semibold text-[20px] md:py-3 py-1">
+                                <span className="text-[20px] w-[80px]">GitHub</span>
+                            </p>
+                            <a className="text-[16px] border-blue-300 text-blue-300" href="">https://baeminji95.github.io/PongDang/</a>
+                        </div>
+                        <div className="flex">
+                            <p className="text-[#6d6d6d] flex font-semibold text-[20px] py-1">
+                                <span className="text-[20px] w-[80px]">주요 기능</span>
+                            </p>
+                            <span className="text-[16px] text-[#6d6d6d]">날씨 및 해변 정보, 지리적 정보와 지도 기능, 모바일 반응형 디자인</span>
+                        </div>
+                        <div className="flex items-center">
+                            <p className="text-[#6d6d6d] flex font-semibold text-[20px] py-1">
+                                <span className="text-[20px] w-[80px]">SKILL</span>
+                            </p>
+                            <span className="text-[16px] text-[#6d6d6d]">
+                                React, HTML, CSS, Tailwindcss, GitHub
+                            </span>
+                        </div>
+                        <hr className="border-stone-500 my-2"/>
+                        {/* <p className="text-[#6d6d6d] w-[80px] font-semibold text-[20px] md:py-3 py-1"></p> */}
+                    </div>
+                </div> 
             </div>
+            
 {/* project 3 */}
             <div className="relative flex flex-wrap h-[951px] bg-[#d8e8fc] overflow-hidden">
                 <div className={`z-20 absolute mt-40 right-[6vw] md:right-28 xl:right-60 duration-500 overflow-hidden ${scroll >= 3200 && scroll < 4700 ? 'translate-x-0' : 'translate-x-[100vw] overflow-hidden'}`}>
@@ -282,9 +295,9 @@ export default function Project({ scroll }) {
                             <p className="pt-2 text-[14px] opacity-75">1人 개인 프로젝트</p>
                         </div>
                     </div>
-                    <div className="flex flex-col p-2">
+                    <div className="md:hidden flex flex-col p-2">
                         <div className="relative flex">
-                            <img id="main" className="my-3 h-[40vw] w-full px-7 object-cover" src="./img/projectImg3.png"/>
+                            <img id="main" className="my-3 h-[40vw] w-full px-7 object-cover" src="https://kimjin1988.github.com/jin-portfolio/img/projectImg3.png"/>
                             {/* <img id="main" className="mt-5 h-[40vw] w-full mx-[5vw] rounded-xl object-cover" src="https://kimjin1988.github.io/jin-portfolio/img/projectImg1.png"/> */}
 
                             <button className="absolute left-0 h-full text-[25px] text-stone-500">&#10094;</button>
