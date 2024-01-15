@@ -122,7 +122,7 @@ export default function Project({ scroll }) {
                             <p className="text-[#6d6d6d] w-[80px] font-semibold text-[20px] md:py-3 py-1">
                                 <span className="text-[3vw] w-[80px]">GitHub</span>
                             </p>
-                            <a className="border-b text-[2.5vw] border-blue-300 text-blue-300" href="">https://kimjin1988.github.io/jin-portfolio/</a>
+                            <a className="border-b text-[2.5vw] border-blue-300 text-blue-300" href="https://kimjin1988.github.io/jin-portfolio/">https://kimjin1988.github.io/jin-portfolio/</a>
                         </div>
                         <div className="flex">
                             <p className="text-[#6d6d6d] flex font-semibold text-[20px] py-1">
@@ -166,7 +166,7 @@ export default function Project({ scroll }) {
                             <p className="text-[#6d6d6d] w-[80px] font-semibold text-[20px] md:py-3 py-1">
                                 <span className="text-[20px] w-[80px]">GitHub</span>
                             </p>
-                            <a className="text-[16px] border-blue-300 text-blue-300" href="">https://kimjin1988.github.io/jin-portfolio/</a>
+                            <a className="text-[16px] border-blue-300 text-blue-300" href="https://kimjin1988.github.io/jin-portfolio/">https://kimjin1988.github.io/jin-portfolio/</a>
                         </div>
                         <div className="flex">
                             <p className="text-[#6d6d6d] flex font-semibold text-[20px] py-1">
@@ -220,7 +220,7 @@ export default function Project({ scroll }) {
                             <p className="text-[#6d6d6d] w-[100px] font-semibold text-[18px] md:py-3 py-1">
                                 <span className="text-[3vw] w-[100px]">GitHub</span>
                             </p>
-                            <a className="border-b text-[2.5vw] border-blue-300 text-blue-300" href="">https://baeminji95.github.io/PongDang/</a>
+                            <a className="border-b text-[2.5vw] border-blue-300 text-blue-300" href="https://baeminji95.github.io/PongDang/">https://baeminji95.github.io/PongDang/</a>
                         </div>
                         <div className="flex">
                             <p className="text-[#6d6d6d] flex font-semibold text-[18px]">
@@ -262,7 +262,7 @@ export default function Project({ scroll }) {
                             <p className="text-[#6d6d6d] w-[80px] font-semibold text-[20px] md:py-3 py-1">
                                 <span className="text-[20px] w-[80px]">GitHub</span>
                             </p>
-                            <a className="text-[16px] border-blue-300 text-blue-300" href="">https://baeminji95.github.io/PongDang/</a>
+                            <a className="text-[16px] border-blue-300 text-blue-300" href="https://baeminji95.github.io/PongDang/">https://baeminji95.github.io/PongDang/</a>
                         </div>
                         <div className="flex">
                             <p className="text-[#6d6d6d] flex font-semibold text-[20px] py-1">
@@ -317,7 +317,7 @@ export default function Project({ scroll }) {
                             <p className="text-[#6d6d6d] w-[80px] font-semibold text-[20px] md:py-3 py-1">
                                 <span className="text-[3vw] w-[80px]">Netrify</span>
                             </p>
-                            <a className="border-b text-[2.5vw] border-blue-300 text-blue-300" href="">https://kimjin1988.github.io/jin-portfolio/</a>
+                            <a className="border-b text-[2.5vw] border-blue-300 text-blue-300" href="https://pposco.netlify.app/">https://pposco.netlify.app/</a>
                         </div>
                         <div className="flex">
                             <p className="text-[#6d6d6d] flex font-semibold text-[20px] py-1">
@@ -361,13 +361,21 @@ export default function Project({ scroll }) {
                             <p className="text-[#6d6d6d] w-[80px] font-semibold text-[20px] md:py-3 py-1">
                                 <span className="text-[20px] w-[80px]">Netlify</span>
                             </p>
-                            <a className="text-[16px] border-blue-300 text-blue-300" href="">https://kimjin1988.github.io/jin-portfolio/</a>
+                            <a className="text-[16px] border-blue-300 text-blue-300" href="https://pposco.netlify.app/">https://pposco.netlify.app/</a>
                         </div>
                         <div className="flex">
                             <p className="text-[#6d6d6d] flex font-semibold text-[20px] py-1">
                                 <span className="text-[20px] w-[80px]">성장</span>
                             </p>
                             <span className="text-[16px] text-[#6d6d6d]">웹사이트 분석, 디자인 및 레이아웃 도출, 반응형 웹 디자인 적용</span>
+                        </div>
+                        <div className="flex items-center">
+                            <p className="text-[#6d6d6d] flex font-semibold text-[20px] py-1">
+                                <span className="text-[20px] w-[80px]">Page</span>
+                            </p>
+                            <span className="text-[16px] text-[#6d6d6d]">
+                                index.html / about.html / poscoholdings.html
+                            </span>
                         </div>
                         <div className="flex items-center">
                             <p className="text-[#6d6d6d] flex font-semibold text-[20px] py-1">
