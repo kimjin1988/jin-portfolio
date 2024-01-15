@@ -31,7 +31,7 @@ export default function App() {
     <>
       <header
         id="header"
-        className={`text-stone-200 flex-wrap lg:px-[20px] flex py-5 fixed top-0 w-full box-border z-40 border-transparent border-b ${scroll >= 900 ? 'bg-transparent text-stone-400 py-2 text-[15px]' : 'bg-black/20'} justify-between transition-all`}
+        className={`text-stone-200 flex-wrap lg:px-[20px] flex py-5 fixed top-0 w-full box-border z-40 border-transparent border-b ${scroll >= 900 ? 'bg-white/80 text-stone-400 py-2 text-[15px]' : 'bg-black/20'} justify-between transition-all`}
       >
         <a href="" className="mx-[30px] flex-wrap">
           <h1 className={`text-4xl font-bold cursor-pointer`}>KIM JIN</h1>
