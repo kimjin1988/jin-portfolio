@@ -194,47 +194,49 @@ export default function Project({ scroll }) {
                     <p className="text-stone-500 text-4xl md:text-5xl font-semibold my-4">Project 2.</p>
                     <div className="w-16 border-t-8 border-t-stone-500 rounded"></div>
                 </div>
-                
-                <div className={`mt-48 h-full md:h-[650px] w-full bg-[#e3f3ce]/90 duration-500 ${scroll >= 2250 && scroll < 3650 ? 'opacity-100' : 'opacity-0'}`}>
+                {/*  */}
+                <div className={`flex flex-col justify-center items-center mt-48 md:h-[650px] w-full bg-[#e3f3ce]/90 duration-500 ${scroll >= 2250 && scroll < 3650 ? 'opacity-100' : 'opacity-0'}`}>
                     <div className="mt-16 flex items-center justify-center w-full">
                         <div className="text-[#6d6d6d] text-center md:hidden">
                             <h1 className="text-[20px] font-semibold">Pong Dang</h1>
                             <p className="pt-2 text-[14px] opacity-75">2人 팀 프로젝트</p>
                         </div>
                     </div>
-                    <div className="md:hidden flex flex-col p-2">
+                    {/*  */}
+                    <div className="md:hidden flex flex-col">
                         <div className="relative flex">
-                            <img id="main" className="my-3 h-[40vw] w-full px-7 object-cover" src="./img/projectImg2.png"/>
-                            {/* <img id="main" className="mt-5 h-[40vw] w-full mx-[5vw] rounded-xl object-cover" src="https://kimjin1988.github.io/jin-portfolio/img/projectImg1.png"/> */}
+                            <img id="main" className="my-3 h-[40vw] w-full px-7 object-cover" src="https://kimjin1988.github.io/jin-portfolio/img/projectImg2.png"/>
 
                             <button className="absolute left-0 h-full text-[25px] text-stone-500">&#10094;</button>
                             <button className="absolute right-0 h-full text-[25px] text-stone-500">&#10095;</button>
                         </div>
-                        <div className="md:hidden mt-[3vw] w-full px-5">
+                    </div>
+
+                    <div className="md:hidden mt-[3vw] w-full px-5">
                         <p className="text-[#6d6d6d] text-[16px] py-1">
                             팀 프로젝트에서는 날씨와 해변 정보를 활용한 서퍼 플랫폼을 개발했습니다.<br/> 모바일 반응형 디자인과 카카오 Map API를 활용하여 최적화된 사용자 경험과 지리적 정보를 제공했으며, Figma를 활용한 초기 디자인 단계에서 팀 협업과 사용자 중심의 디자인을 강조했습니다. 팀 내에서의 의사소통 강화와 역할 재분배를 통해 예상치 못한 도전을 효과적으로 대응했고, React를 사용한 프로젝트에서 발생한 기술적 어려움을 해결하며 프로젝트를 성공적으로 완료했습니다. 이 경험을 통해 미래 프로젝트에서는 강력한 전략으로 예상치 못한 상황에 대응할 수 있을 것입니다.
                         </p>
                         <div className="flex items-center">
-                            <p className="text-[#6d6d6d] w-[120px] font-semibold text-[20px] md:py-3 py-1">
-                                <span className="text-[3vw] w-[120px]">GitHub</span>
+                            <p className="text-[#6d6d6d] w-[100px] font-semibold text-[18px] md:py-3 py-1">
+                                <span className="text-[3vw] w-[100px]">GitHub</span>
                             </p>
                             <a className="border-b text-[2.5vw] border-blue-300 text-blue-300" href="">https://baeminji95.github.io/PongDang/</a>
                         </div>
                         <div className="flex">
-                            <p className="text-[#6d6d6d] flex font-semibold text-[20px]">
-                                <span className="text-[3vw] w-[120px]">주요 기능</span>
+                            <p className="text-[#6d6d6d] flex font-semibold text-[18px]">
+                                <span className="text-[3vw] w-[100px]">주요 기능</span>
                             </p>
                             <span className="text-[2.5vw] text-[#6d6d6d]">날씨 및 해변 정보, 지리적 정보와 지도 기능, 모바일 반응형 디자인</span>
                         </div>
                         <div className="flex items-center">
-                            <p className="text-[#6d6d6d] flex font-semibold text-[20px] py-1">
-                                <span className="text-[3vw] w-[120px]">SKILL</span>
+                            <p className="text-[#6d6d6d] flex font-semibold text-[18px] py-1">
+                                <span className="text-[3vw] w-[100px]">SKILL</span>
                             </p>
                             <span className="text-[2.5vw] text-[#6d6d6d]">
                                 React, HTML, CSS, Tailwindcss, GitHub
                             </span>
                         </div>
-                    </div>
+                    
                     
 
                     </div>
@@ -243,7 +245,7 @@ export default function Project({ scroll }) {
                             <img className="flex mt-0 p-5 z-30 h-[250px] xl:h-[300px] rounded-[30px] duration-300 object-cover justify-center" alt="project1Img" src="https://kimjin1988.github.io/jin-portfolio/img/projectImg2.png"/>
                         </div>
                         <div className="flex-wrap mt-3 text-stone-500 font-bold">
-                            <p className="text-[#6d6d6d] text-[15px] lg:text-[16px] pt-1">
+                            <p className="text-[#6d6d6d] text-[16px] pt-1">
                                 <span className="font-bold">팀 프로젝트에서는 날씨와 해변 정보를 활용한 서퍼 플랫폼을 개발했습니다.</span><br/> 모바일 반응형 디자인과 카카오 Map API를 활용하여 최적화된 사용자 경험과 지리적 정보를 제공했으며, Figma를 활용한 초기 디자인 단계에서 팀 협업과 사용자 중심의 디자인을 강조했습니다. 팀 내에서의 의사소통 강화와 역할 재분배를 통해 예상치 못한 도전을 효과적으로 대응했고, React를 사용한 프로젝트에서 발생한 기술적 어려움을 해결하며 프로젝트를 성공적으로 완료했습니다. 이 경험을 통해 미래 프로젝트에서는 강력한 전략으로 예상치 못한 상황에 대응할 수 있을 것입니다.
                             </p>
                         </div>
@@ -281,35 +283,104 @@ export default function Project({ scroll }) {
                     </div>
                 </div> 
             </div>
-            
+
 {/* project 3 */}
             <div className="relative flex flex-wrap h-[951px] bg-[#d8e8fc] overflow-hidden">
                 <div className={`z-20 absolute mt-40 right-[6vw] md:right-28 xl:right-60 duration-500 overflow-hidden ${scroll >= 3200 && scroll < 4700 ? 'translate-x-0' : 'translate-x-[100vw] overflow-hidden'}`}>
                     <p className="text-stone-500 text-4xl md:text-5xl font-semibold my-4">Project 3.</p>
                     <div className="w-16 border-t-8 border-t-stone-500 rounded"></div>
                 </div>
-                <div className={`mt-48 h-full md:h-[650px] w-full bg-[#c6d3ff]/90 duration-500 ${scroll >= 3200 && scroll < 4700 ? 'opacity-100' : 'opacity-0'}`}>
+                {/* MO버전 */}
+                <div className={`flex flex-col justify-center items-center mt-48 md:h-[650px] w-full bg-[#c6d3ff]/90 duration-500 ${scroll >= 3200 && scroll < 4700 ? 'opacity-100' : 'opacity-0'}`}>
                     <div className="mt-16 flex items-center justify-center w-full">
                         <div className="text-[#6d6d6d] text-center md:hidden">
                             <h1 className="text-[20px] font-semibold">pposco</h1>
-                            <p className="pt-2 text-[14px] opacity-75">1人 개인 프로젝트</p>
+                            <p className="pt-2 text-[14px] opacity-75">1人 퍼블리싱 100%</p>
                         </div>
                     </div>
-                    <div className="md:hidden flex flex-col p-2">
+                    {/* img MO */}
+                    <div className="md:hidden flex flex-col">
                         <div className="relative flex">
-                            <img id="main" className="my-3 h-[40vw] w-full px-7 object-cover" src="https://kimjin1988.github.com/jin-portfolio/img/projectImg3.png"/>
-                            {/* <img id="main" className="mt-5 h-[40vw] w-full mx-[5vw] rounded-xl object-cover" src="https://kimjin1988.github.io/jin-portfolio/img/projectImg1.png"/> */}
+                            <img id="main" className="my-3 h-[40vw] w-full px-7 object-cover" src="https://kimjin1988.github.io/jin-portfolio/img/projectImg3.png"/>
+                            {/* <img className="my-3 h-[40vw] w-full px-7 object-cover hidden" src="https://kimjin1988.github.io/jin-portfolio/img/projectImg2.png"/> */}
 
                             <button className="absolute left-0 h-full text-[25px] text-stone-500">&#10094;</button>
                             <button className="absolute right-0 h-full text-[25px] text-stone-500">&#10095;</button>
+
                         </div>
                     </div>
+                    <div className="md:hidden mt-[3vw] w-full px-5">
+                        <p className="text-[#6d6d6d] text-[16px] py-1">
+                            국비 훈련과정중 하나의 웹사이트를 선정하여 그 사이트를 따라 만들어본 프로젝트입니다.<br/>이 프로젝트에서는 선택한 웹사이트를 분석하고, 해당 디자인 및 기능을 따라가며 비슷한 웹사이트를 구축하는 작업을 수행했습니다. 이 프로젝트를 통해 원본 웹사이트의 디자인과 기능을 세밀히 이해하고, 이를 따라가며 비슷한 웹사이트를 만들어봄으로써 실전 경험을 쌓을 수 있었습니다. 웹 개발의 다양한 측면에서의 기술 습득 능력을 향상시킬 수 있었던 의미있는 경험이었습니다.
+                        </p>
+                        <div className="flex items-center">
+                            <p className="text-[#6d6d6d] w-[80px] font-semibold text-[20px] md:py-3 py-1">
+                                <span className="text-[3vw] w-[80px]">Netrify</span>
+                            </p>
+                            <a className="border-b text-[2.5vw] border-blue-300 text-blue-300" href="">https://kimjin1988.github.io/jin-portfolio/</a>
+                        </div>
+                        <div className="flex">
+                            <p className="text-[#6d6d6d] flex font-semibold text-[20px] py-1">
+                                <span className="text-[20px] w-[80px]">성장</span>
+                            </p>
+                            <span className="text-[16px] text-[#6d6d6d]">웹사이트 분석, 디자인 및 레이아웃 도출, 반응형 웹 디자인 적용</span>
+                        </div>
+                        <div className="flex items-center">
+                            <p className="text-[#6d6d6d] flex font-semibold text-[20px] py-1">
+                                <span className="text-[3vw] w-[80px]">SKILL</span>
+                            </p>
+                            <span className="text-[2.5vw] text-[#6d6d6d]">
+                                HTML, CSS, Tailwindcss, javaScript, Netlify
+                            </span>
+                        </div>
+                        {/* <p className="text-[#6d6d6d] w-[80px] font-semibold text-[20px] md:py-3 py-1"></p> */}
+                    </div>
+
+                    {/* img WEB */}
+                    <div className="hidden md:block flex-col pl-[57vw] items-center pr-[3vw]">
+                        <div className="flex justify-center">
+                            <img className="flex mt-0 p-5 z-30 h-[250px] xl:h-[300px] rounded-[30px] duration-300 object-cover justify-center" alt="projectImg3" src="https://kimjin1988.github.io/jin-portfolio/img/projectImg3.png"/>
+                        </div>
+                        <div className="flex-wrap mt-3 text-stone-500 font-bold">
+                            <p className="text-[#6d6d6d] text-[16px] pt-1">
+                                <span className="font-bold">국비 훈련과정중 하나의 웹사이트를 선정하여 그 사이트를 따라 만들어본 프로젝트입니다.</span><br/>이 프로젝트에서는 선택한 웹사이트를 분석하고, 해당 디자인 및 기능을 따라가며 비슷한 웹사이트를 구축하는 작업을 수행했습니다. 이 프로젝트를 통해 원본 웹사이트의 디자인과 기능을 세밀히 이해하고, 이를 따라가며 비슷한 웹사이트를 만들어봄으로써 실전 경험을 쌓을 수 있었습니다. 웹 개발의 다양한 측면에서의 기술 습득 능력을 향상시킬 수 있었던 의미있는 경험이었습니다.
+                            </p>
+                        </div>
+                    </div>
+
                 </div>
                 {/* web버전 */}
                 <div className={`z-10 absolute hidden md:block translate-x-0 left-[4vw] md:left-20 lg:left-28 mt-48 h-[650px] w-[50vw] md:w-[44vw] bg-white transition-all duration-1000 overflow-hidden ${scroll >= 3250 && scroll < 4700 ? 'opacity-100 translate-x-0' : 'opacity-0 translate-x-[-100vw]'}`}>
+                    <div className="mt-5 text-[#6d6d6d] text-center hidden md:block">
+                        <h1 className="text-[20px] font-semibold">pposco</h1>
+                        <p className="pt-2 text-[14px] opacity-75">1人 퍼블리싱 100%</p>
+                    </div>
                     
+                    <div className="mt-[3vw] w-full px-5">
+                        <div className="flex items-center">
+                            <p className="text-[#6d6d6d] w-[80px] font-semibold text-[20px] md:py-3 py-1">
+                                <span className="text-[20px] w-[80px]">Netlify</span>
+                            </p>
+                            <a className="text-[16px] border-blue-300 text-blue-300" href="">https://kimjin1988.github.io/jin-portfolio/</a>
+                        </div>
+                        <div className="flex">
+                            <p className="text-[#6d6d6d] flex font-semibold text-[20px] py-1">
+                                <span className="text-[20px] w-[80px]">성장</span>
+                            </p>
+                            <span className="text-[16px] text-[#6d6d6d]">웹사이트 분석, 디자인 및 레이아웃 도출, 반응형 웹 디자인 적용</span>
+                        </div>
+                        <div className="flex items-center">
+                            <p className="text-[#6d6d6d] flex font-semibold text-[20px] py-1">
+                                <span className="text-[20px] w-[80px]">SKILL</span>
+                            </p>
+                            <span className="text-[16px] text-[#6d6d6d]">
+                                HTML, CSS, Tailwindcss, javaScript, Netlify
+                            </span>
+                        </div>
+                        <hr className="border-stone-500 my-2"/>
+                        {/* <p className="text-[#6d6d6d] w-[80px] font-semibold text-[20px] md:py-3 py-1"></p> */}
+                    </div>
                 </div>
-                
             </div>
         </>
     )
