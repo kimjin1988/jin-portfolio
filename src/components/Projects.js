@@ -128,7 +128,7 @@ export default function Project({ scroll }) {
                             <p className="text-[#6d6d6d] flex font-semibold text-[20px] py-1">
                                 <span className="text-[3vw] w-[80px]">설명</span>
                             </p>
-                            <span className="text-[2.5vw] text-[#6d6d6d]">간단한 자기소개, 인적 사항, 기술 스택, GitHub 링크, 프로젝트 경험, 업무 경력</span>
+                            <span className="text-[2.5vw] text-[#6d6d6d]">간단한 자기소개, 인적 사항, 기술 스택, GitHub 링크, Netlify 링크, 프로젝트 경험, 업무 경력</span>
                         </div>
                         <div className="flex items-center">
                             <p className="text-[#6d6d6d] flex font-semibold text-[20px] py-1">
@@ -158,32 +158,39 @@ export default function Project({ scroll }) {
                 <div className={`z-10 absolute hidden md:block translate-x-0 left-[4vw] md:left-20 lg:left-28 mt-48 h-[650px] w-[50vw] md:w-[44vw] bg-white transition-all duration-1000 overflow-hidden ${scroll >= 1250 && scroll < 2600 ? 'opacity-100 translate-x-0' : 'opacity-0 translate-x-[-100vw]'}`}>
                     <div className="mt-5 text-[#6d6d6d] text-center hidden md:block">
                         <h1 className="text-[20px] font-semibold">Portfolio</h1>
-                        <p className="pt-2 text-[14px] opacity-75">1人 <span className="font-semibold">|</span> 퍼블리싱 100%</p>
+                        <p className="pt-1 text-[14px] opacity-75">1人 <span className="font-semibold">|</span> 퍼블리싱 100%</p>
                     </div>
                     
-                    <div className="mt-[3vw] w-full px-5">
+                    <div className="mt-[1vw] w-full px-5">
                         <div className="flex items-center">
-                            <p className="text-[#6d6d6d] w-[80px] font-semibold text-[20px] md:py-3 py-1">
+                            <p className="text-[#6d6d6d] w-[80px] font-semibold text-[20px] py-1">
                                 <span className="text-[20px] w-[80px]">GitHub</span>
                             </p>
-                            <a className="text-[16px] border-blue-300 text-blue-300" href="https://kimjin1988.github.io/jin-portfolio/">https://kimjin1988.github.io/jin-portfolio/</a>
+                            <a className="text-[15px] border-blue-300 text-blue-300" href="https://kimjin1988.github.io/jin-portfolio/">https://kimjin1988.github.io/jin-portfolio/</a>
                         </div>
                         <div className="flex">
                             <p className="text-[#6d6d6d] flex font-semibold text-[20px] py-1">
                                 <span className="text-[20px] w-[80px]">설명</span>
                             </p>
-                            <span className="text-[16px] text-[#6d6d6d]">간단한 자기소개, 인적 사항, 기술 스택, GitHub 링크, 프로젝트 경험, 업무 경력</span>
+                            <span className="text-[15px] text-[#6d6d6d]">간단한 자기소개, 인적 사항, 기술 스택, GitHub 링크, Netlify 링크, 프로젝트 경험, 업무 경력</span>
                         </div>
                         <div className="flex items-center">
                             <p className="text-[#6d6d6d] flex font-semibold text-[20px] py-1">
                                 <span className="text-[20px] w-[80px]">SKILL</span>
                             </p>
-                            <span className="text-[16px] text-[#6d6d6d]">
+                            <span className="text-[15px] text-[#6d6d6d]">
                                 React, HTML, CSS, Tailwindcss, GitHub
                             </span>
                         </div>
-                        <hr className="border-stone-500 my-2"/>
-                        {/* <p className="text-[#6d6d6d] w-[80px] font-semibold text-[20px] md:py-3 py-1"></p> */}
+                        <hr className="border-stone-500 mt-2"/>
+                        <div className="xl:pt-5">
+                            <p className="text-[#6d6d6d] w-[80px] font-semibold text-[14px] xl:text-[18px] pt-2">초반 단계</p>
+                            <span className="text-[12px] text-[#6d6d6d] xl:text-[15px]">- 프로젝트 초반에는 포트폴리오의 핵심 내용과 디자인을 정하는 것이 주요 과제였습니다. Figma를 활용하여 아이디어를 구체화하고, 창의적인 디자인 컨셉을 탐색했습니다.</span>
+                            <p className="xl:pt-3 text-[#6d6d6d] w-[80px] font-semibold text-[14px] xl:text-[18px] pt-2">중반 단계</p>
+                            <span className="text-[12px] text-[#6d6d6d] xl:text-[15px]">- Figma의 초기 디자인을 기반으로 웹페이지를 구성하는데는 원활하게 진행되었습니다. 그러나 반응형 디자인을 추가하면서 포트폴리오 완성 시간이 예상보다 늦춰졌습니다. 이 단계에서는 빠른 해결책을 찾기 위해 노력하며, 사용자들이 향상된 경험을 얻을 수 있도록 노력했습니다.</span>
+                            <p className="xl:pt-3 text-[#6d6d6d] w-[80px] font-semibold text-[14px] xl:text-[18px] pt-2">후반 단계</p>
+                            <span className="text-[12px] text-[#6d6d6d] xl:text-[15px]">- 프로젝트 후반에서는 초기 디자인과 기능을 최적화하여 높은 완성도의 포트폴리오를 완성했습니다. 지인들의 소중한 피드백을 수용하고, 다양한 디바이스에서 원활한 이용이 가능하도록 반응형 디자인을 강화했습니다. 마지막으로 프로젝트를 성공적으로 종결하고, 향후 유지보수에 대비하여 최종 배포 작업을 마무리했습니다. 이를 통해 나만의 독특한 프로젝트 경험을 효과적으로 전달했습니다.</span>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -259,14 +266,14 @@ export default function Project({ scroll }) {
                     
                     <div className="mt-[3vw] w-full px-5">
                         <div className="flex items-center">
-                            <p className="text-[#6d6d6d] w-[80px] font-semibold text-[20px] md:py-3 py-1">
+                            <p className="flex text-[#6d6d6d] w-[80px] font-semibold text-[20px] md:py-3 py-1">
                                 <span className="text-[20px] w-[80px]">GitHub</span>
                             </p>
                             <a className="text-[16px] border-blue-300 text-blue-300" href="https://baeminji95.github.io/PongDang/">https://baeminji95.github.io/PongDang/</a>
                         </div>
                         <div className="flex">
                             <p className="text-[#6d6d6d] flex font-semibold text-[20px] py-1">
-                                <span className="text-[20px] w-[80px]">주요 기능</span>
+                                <span className="text-[18px] w-[80px]">주요 기능</span>
                             </p>
                             <span className="text-[16px] text-[#6d6d6d]">날씨 및 해변 정보, 지리적 정보와 지도 기능, 모바일 반응형 디자인</span>
                         </div>
@@ -317,13 +324,13 @@ export default function Project({ scroll }) {
                             <p className="text-[#6d6d6d] w-[80px] font-semibold text-[20px] md:py-3 py-1">
                                 <span className="text-[3vw] w-[80px]">Netrify</span>
                             </p>
-                            <a className="border-b text-[2.5vw] border-blue-300 text-blue-300" href="https://pposco.netlify.app/">https://pposco.netlify.app/</a>
+                            <a className="border-b text-[2.5vw] border-blue-400 text-blue-400" href="https://pposco.netlify.app/">https://pposco.netlify.app/</a>
                         </div>
                         <div className="flex">
                             <p className="text-[#6d6d6d] flex font-semibold text-[20px] py-1">
-                                <span className="text-[20px] w-[80px]">성장</span>
+                                <span className="text-[3vw] w-[80px]">성장</span>
                             </p>
-                            <span className="text-[16px] text-[#6d6d6d]">웹사이트 분석, 디자인 및 레이아웃 도출, 반응형 웹 디자인 적용</span>
+                            <span className="text-[2.5vw] text-[#6d6d6d]">웹사이트 분석, 디자인 및 레이아웃 도출, 반응형 웹 디자인 적용</span>
                         </div>
                         <div className="flex items-center">
                             <p className="text-[#6d6d6d] flex font-semibold text-[20px] py-1">

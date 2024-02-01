@@ -20,7 +20,7 @@ export default function About({ scroll }) {
                                     </p>
                                     <p className=""><dt className="text-[#85b9fd] font-semibold text-[20px] md:py-3 lg:py-1 w-[80px]">PHONE</dt><dd className="text-[14px] md:text-[16px] md:leading-[54px] lg:leading-[38px] text-stone-500">010 7114 1988</dd></p>
                                     <p className=""><dt className="text-[#85b9fd] font-semibold text-[20px] md:py-3 lg:py-1 w-[80px]">EMAIL</dt><dd className="text-[14px] md:text-[16px] md:leading-[54px] lg:leading-[38px] text-stone-500">kimjin1988@gmail.com</dd></p>
-                                    <p className=""><span className="text-[#85b9fd] font-semibold text-[20px] md:pt-3 lg:py-1 w-[80px]">github</span><dd><a className="text-[14px] md:text-[16px] md:leading-[54px] lg:leading-[38px] text-stone-500" href="https://github.com/kimjin1988">https://github.com/kimjin1988</a></dd></p>
+                                    <p className=""><span className="text-[#85b9fd] font-semibold text-[20px] md:pt-3 lg:py-1 w-[80px]">github</span><dd><a className="text-[14px] md:text-[16px] md:leading-[54px] lg:leading-[38px] text-stone-500" href="https://github.com/kimjin1988" target="_blank">https://github.com/kimjin1988</a></dd></p>
                                     <p className="font-semibold text-[20px] pt-3 text-[#85b9fd]">EDUCATION</p>
                                     <p className="pt-2 md:flex"><dt className="font-semibold text-[14px] md:text-[16px] text-stone-500">2023.09 ~ 2023.12</dt></p>
                                     <dd className="text-stone-500 text-[14px] md:text-[16px]">코리아IT아트아카데미 UI/UX 웹퍼블리셔 양성과정 수료</dd>
