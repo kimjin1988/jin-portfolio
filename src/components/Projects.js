@@ -286,7 +286,14 @@ export default function Project({ scroll }) {
                             </span>
                         </div>
                         <hr className="border-stone-500 my-2"/>
-                        {/* <p className="text-[#6d6d6d] w-[80px] font-semibold text-[20px] md:py-3 py-1"></p> */}
+                        <div className="xl:pt-5">
+                            <p className="text-[#6d6d6d] w-[80px] font-semibold text-[14px] xl:text-[18px] pt-2">초반 단계</p>
+                            <span className="text-[12px] text-[#6d6d6d] xl:text-[15px]">- 초반 단계에서는 공공데이터포털에서 필요한 오픈소스를 조합하여 프로젝트의 방향을 설정하고, Figma를 활용하여 초기 디자인을 구현했습니다. 이 단계에서는 프로젝트의 핵심 기획과 전체적인 구조를 마련하며 기초적인 개발 환경을 구축했습니다.</span>
+                            <p className="xl:pt-3 text-[#6d6d6d] w-[80px] font-semibold text-[14px] xl:text-[18px] pt-2">중반 단계</p>
+                            <span className="text-[12px] text-[#6d6d6d] xl:text-[15px]">- 중반 단계에서는 프로젝트를 진행하면서 사용자 경험을 개선하기 위해 다양한 기능과 라이브러리를 도입했습니다. 특히, 즐겨찾기와 같은 유용한 기능들을 구현하고, 사용자들에게 더 나은 서비스를 제공하기 위한 고민과 노력을 기울였습니다. 이 단계에서는 즐거움과 소중한 경험을 얻을 수 있었습니다</span>
+                            <p className="xl:pt-3 text-[#6d6d6d] w-[80px] font-semibold text-[14px] xl:text-[18px] pt-2">후반 단계</p>
+                            <span className="text-[12px] text-[#6d6d6d] xl:text-[15px]">- 프로젝트 후반단계에서는 다양한 오류들을 경험하며 키스테이트 추적을 통해 오류를 해결하고 프로젝트를 성공적으로 마무리 했습니다.</span>
+                        </div>
                     </div>
                 </div> 
             </div>
@@ -393,7 +400,14 @@ export default function Project({ scroll }) {
                             </span>
                         </div>
                         <hr className="border-stone-500 my-2"/>
-                        {/* <p className="text-[#6d6d6d] w-[80px] font-semibold text-[20px] md:py-3 py-1"></p> */}
+                        <div className="xl:pt-5">
+                            <p className="text-[#6d6d6d] w-[80px] font-semibold text-[14px] xl:text-[18px] pt-2">초반 단계</p>
+                            <span className="text-[12px] text-[#6d6d6d] xl:text-[15px]">- 국비 지원 훈련 과정중 처음 진행한 개인 프로젝트입니다. 프로젝트를 리팩토링해 볼 기회를 준 첫 프로젝트인만큼 미숙한 부분도 많지만 소중한 경험을 준 프로젝트입니다.</span>
+                            <p className="xl:pt-3 text-[#6d6d6d] w-[80px] font-semibold text-[14px] xl:text-[18px] pt-2">중반 단계</p>
+                            <span className="text-[12px] text-[#6d6d6d] xl:text-[15px]">- 이 프로젝트를 통해 선택한 웹사이트를 세밀히 분석하고 이해함으로써 실전 경험을 쌓을 수 있었습니다. 원본 웹사이트의 디자인과 기능을 따라가면서 웹 개발의 다양한 측면에서 기술 습득 능력을 향상시키는 데에 큰 의미를 두었습니다.</span>
+                            <p className="xl:pt-3 text-[#6d6d6d] w-[80px] font-semibold text-[14px] xl:text-[18px] pt-2">후반 단계</p>
+                            <span className="text-[12px] text-[#6d6d6d] xl:text-[15px]">- 기술적인 이해도와 창의성을 키울 수 있는 소중한 경험으로 기억됩니다.</span>
+                        </div>
                     </div>
                 </div>
             </div>
